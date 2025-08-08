@@ -1,0 +1,56 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffc6c6;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  padding: 1em;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0.5em;
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 0.5em;
+  text-align: center;
+}
+
+input, textarea {
+  width: 90%;
+}
+
+.horas-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.columna {
+  width: 48%;
+}
+
+.botones-edicion {
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #f5b5b5;
+  font-weight: bold;
+}
